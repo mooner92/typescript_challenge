@@ -1,2 +1,12 @@
 //이 파일의 이름은 고정임 
-//이 파일은 우리가
+//이 파일은 우리가 ts로 작업한다는 것을 vscode가 알게 됨
+{
+    //js로 compile하고 싶은 모든 디렉토리를 array에 담아줄거임
+    //아래 문장은 src의 모든 파일을 TS가 확인한다는 것을 의미함
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir": "build"
+    }
+    //ts는 컴파일러라서 아무튼 컴파일 된 js파일을 어디에 저장할지 outDir을 지정하는 과정
+
+}
