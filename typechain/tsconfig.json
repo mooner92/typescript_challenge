@@ -7,7 +7,9 @@
     "compilerOptions": {
         "outDir": "build",
         "target": "ES6",
-        "lib": ["ES6","DOM"]
+        "lib": ["ES6","DOM"],
+        "strict": true,
+        "allowJs": true
     }
     //ts는 컴파일러라서 아무튼 컴파일 된 js파일을 어디에 저장할지 outDir을 지정하는 과정
 
